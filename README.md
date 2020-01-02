@@ -28,4 +28,5 @@ It will allow us to do application debug during execution.
 
 ## To Run Flask
 It will run the Flask application based on your configurtion/env-variables that have been assigned.
+
 `$ flask run`
