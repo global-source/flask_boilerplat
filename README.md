@@ -50,11 +50,11 @@ Before you work on your project, activate the corresponding environment:
 
 #### To install required 'pip' bundles. 
 
-Move to Boilerplat's root directory and execute the following.
+Move to boilerplate's root directory and execute the following.
 
 ` pip install -r requirements.txt `
 
-## 2. To start your Flask Boilerplat
+## 2. To start your Flask boilerplate
 It will set the application to execute
 
 #### Linux
@@ -79,7 +79,7 @@ It will allow us to do application debug during execution.
 #### Windows
 `> set FLASK_DEBUG=1`
 
-### To Run Flask Boilerplat
+### To Run Flask boilerplate
 It will run the Flask application based on your configurtion/env-variables that have been assigned.
 
 ` flask run`
