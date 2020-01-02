@@ -4,7 +4,7 @@
     <head>
         {% block head %}
             <title>{% block title %}Home{% endblock %}</title>
-        {% endblock %}
+        {% endblock head %}
         {% block styles %}
 
             <!-- For Base Styles -->
@@ -14,8 +14,8 @@
 
                 <!-- For Additional Styles -->
 
-            {% endblock %}
-        {% endblock %}
+            {% endblock additional_styles %}
+        {% endblock styles %}
         {% block h_scripts %}
 
             <!-- For Base Scripts -->
@@ -24,8 +24,8 @@
 
                 <!-- For Additional Scripts -->
 
-            {% endblock %}
-        {% endblock %}
+            {% endblock h_additional_scripts %}
+        {% endblock h_scripts %}
     </head>
 
     <body>
@@ -33,7 +33,7 @@
     <!-- Main Page Content Comes Here -->
     {% block content %}
 
-    {% endblock %}
+    {% endblock content %}
 
     {% block f_scripts %}
     
@@ -45,8 +45,8 @@
 
             <!-- For Additional Scripts -->
 
-        {% endblock %}
-    {% endblock %}
+        {% endblock f_additional_scripts %}
+    {% endblock f_scripts %}
 
     </body>
 </html>
