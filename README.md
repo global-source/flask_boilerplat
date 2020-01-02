@@ -1,4 +1,4 @@
-## Flask Boilerpalt
+## Flask Boilerplate
 Ready to go with Flask
 
 ## 1. To Setup Your Environment
