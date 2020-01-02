@@ -1,0 +1,52 @@
+<!-- Base HTML Template for the Application -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% block head %}
+            <title>{% block title %}Home{% endblock %}</title>
+        {% endblock %}
+        {% block styles %}
+
+            <!-- For Base Styles -->
+            <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+
+            {% block additional_styles %}
+
+                <!-- For Additional Styles -->
+
+            {% endblock %}
+        {% endblock %}
+        {% block h_scripts %}
+
+            <!-- For Base Scripts -->
+
+            {% block h_additional_scripts %}
+
+                <!-- For Additional Scripts -->
+
+            {% endblock %}
+        {% endblock %}
+    </head>
+
+    <body>
+
+    <!-- Main Page Content Comes Here -->
+    {% block content %}
+
+    {% endblock %}
+
+    {% block f_scripts %}
+    
+        <!-- For Base Scripts -->
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+        
+
+        {% block f_additional_scripts %}
+
+            <!-- For Additional Scripts -->
+
+        {% endblock %}
+    {% endblock %}
+
+    </body>
+</html>
