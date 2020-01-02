@@ -10,9 +10,6 @@ It will set the application to execute
 ### Windows
 `$ set FLASK_APP main.py`
 
-### For Execution
-`$ flask run`
-
 ## To set Environment
 It will allow you to manage your application behaviour with different environment.
 ### Linux
@@ -29,3 +26,6 @@ It will allow us to do application debug during execution.
 ### Windows
 `$ set FLASK_DEBUG=1`
 
+## To Run Flask
+It will run the Flask application based on your configurtion/env-variables that have been assigned.
+`$ flask run`
